@@ -1,3 +1,4 @@
+/*index*/
 * {
     margin: 0;
     padding: 0;
@@ -33,3 +34,27 @@ h1 {
 .botoes:active {
     background-color: #3e8e41;
 }
+
+.ponto-turistico {
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Adiciona um fundo claro */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+  }
+  .ponto-turistico-button {
+    background-color: #4CAF50; /* Verde */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center; /* Centraliza o texto do botão */
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .texto-justificado {
+    text-align: end; /* Justifica o texto */
+  }
