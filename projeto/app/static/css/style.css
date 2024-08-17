@@ -1,21 +1,26 @@
-/*index*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Estilo para títulos */
+.titulos {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    text-align: center;
-  }
-  
-h1 {
-    font-size: 36px;
-    color: #333;
+/* Estilo para parágrafos */
+.paragrafos {
+    font-family: 'Georgia', serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+	margin-right: 50px;
+	margin-left: 70px;
+	text-align: justify;
 }
-  
+
+/* Estilo para botões */
 .botoes {
     background-color: #4CAF50;
     border: none;
@@ -25,6 +30,13 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px; 
+    transition: background-color 0.3s;
+    box-shadow: 8px 8px 8px 0px rgba(128,0,255,0.58);
+    -webkit-box-shadow: 8px 8px 8px 0px rgba(128,0,255,0.58);
+    -moz-box-shadow: 8px 8px 8px 0px rgba(128,0,255,0.58);
+	margin: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .botoes:hover {
@@ -35,26 +47,16 @@ h1 {
     background-color: #3e8e41;
 }
 
-.ponto-turistico {
-    font-family: Arial, sans-serif;
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f5f5f5; /* Adiciona um fundo claro */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
-  }
-  .ponto-turistico-button {
-    background-color: #4CAF50; /* Verde */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-align: center; /* Centraliza o texto do botão */
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  .texto-justificado {
-    text-align: end; /* Justifica o texto */
-  }
+.container_coluna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
