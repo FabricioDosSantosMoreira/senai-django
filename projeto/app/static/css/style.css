@@ -6,36 +6,30 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    margin: 20px;
     text-align: center;
-    padding: 20px;
-}
-
+  }
+  
 h1 {
+    font-size: 36px;
     color: #333;
-    margin-bottom: 20px;
 }
-
-p {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: justify;
-    padding: 0 20px;
-}
-
-button {
-    background-color: #007BFF;
-    color: white;
+  
+.botoes {
+    background-color: #4CAF50;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
 }
 
-button:hover {
-    background-color: #0056b3;
+.botoes:hover {
+    background-color: #45a049;
+}
+
+.botoes:active {
+    background-color: #3e8e41;
 }

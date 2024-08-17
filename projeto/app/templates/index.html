@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <style src="{% static 'css/style.css' %}"></style>
-    <script src="{% static 'js/script.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}" defer></script>
 </head>
 <body>
     <h1>Página Sobre Palhoça</h1>
 
-    <button onclick="navigateToHistoria()">Ir para a História</button>
-    <button onclick="navigateToGaleria()">Ir para a Galeria</button>
-    <button onclick="navigateToPontosTuristicos()">Ir para os Pontos Turísticos</button>
-
+    <button class="botoes" onclick="navigateToHistoria()">Ir para a História</button>
+    <button class="botoes" onclick="navigateToGaleria()">Ir para a Galeria</button>
+    <button class="botoes" onclick="navigateToPontosTuristicos()">Ir para os Pontos Turísticos</button>
 </body>
 </html>
